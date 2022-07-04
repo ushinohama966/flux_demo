@@ -4,4 +4,3 @@ namespace: podinfo
 resources:
   - namespace.yaml
   - release.yaml
-  - add-name.yaml
