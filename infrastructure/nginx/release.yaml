@@ -6,7 +6,8 @@ spec:
   releaseName: nginx-ingress-controller
   chart:
     spec:
-      chart: nginx-ingress-controller
+      # chart: nginx-ingress-controller
+      chart: nic
       sourceRef:
         kind: HelmRepository
         name: bitnami
