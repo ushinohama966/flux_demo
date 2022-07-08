@@ -3,7 +3,7 @@ kind: HelmRelease
 metadata:
   name: nginx
 spec:
-  releaseName: nginx-ingress-controller
+  # releaseName: nginx-ingress-controller
   chart:
     spec:
       chart: nginx-ingress-controller
